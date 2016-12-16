@@ -55,10 +55,7 @@ for i in xrange(0, len(elements)):
     itemIds.append(str(elements[i][u'id']))
 
 num_items = len(itemIds)
-# for general usage
 for i in xrange(0, NUM_ORDERS):
-# for i in xrange(0, 1):
-# for testing
     sleep(0.4)
     rand_item_index = randint(0, num_items - 1)
     url = ENVIRONMENT + "v3/merchants/" + MID + "/orders"
@@ -78,7 +75,6 @@ for i in xrange(0, NUM_ORDERS):
     price = response.json()[u'price']
 
     ########## BEGIN PAYMENT ##########
-    # Getting secrets to encrypt cc info
     sleep(0.4)
     url = ENVIRONMENT + "v2/merchant/" + MID + '/pay/key'
     headers = {"Authorization": "Bearer " + API_TOKEN}
