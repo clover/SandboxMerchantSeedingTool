@@ -125,5 +125,8 @@ for i in xrange(0, NUM_ORDERS):
     payload = {"total": long(price)}
     sleep(0.4)
     response = requests.post(url=url, headers=headers, json=payload)
+    if response.status_code != 200:
+        print "Something went wrong updating order total"
+        sys.exit()
 
     print str((float(i) / NUM_ORDERS) * 100) + "% complete"
