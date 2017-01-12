@@ -1,6 +1,8 @@
 # Clover Orders Seeder
 
-This script creates orders and makes in-full, credit card payments for those orders. These orders are based on the pre-existing inventory of the merchant. Items are selected randomly, and each order consists of one item.
+This script is intended to be used to seed a Clover Sandbox account to assist with third party Clover application development and testing. It creates orders and makes in-full, credit card payments for those orders. These orders are based on the pre-existing inventory of the merchant. Items are selected randomly, and each order consists of one item.
+
+
 
 To ensure payments are made in full, turn off all default taxes.  
 `Clover Dashboard -> Setup > Taxes > Tax rates`

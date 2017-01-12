@@ -1,16 +1,4 @@
 #######################################
-############ GENERAL USAGE ############
-#######################################
-"""
-This script creates orders and payments to those orders based on
-the pre-existing inventory of a merchant. Items are selected randomly
-and each order consists of just one item.
-
-To ensure payments are made in full, turn off all default taxes.
-    -> Setup > Taxes > Tax rates
-"""
-
-#######################################
 ######### BEGIN SCRIPT CONFIG #########
 #######################################
 
