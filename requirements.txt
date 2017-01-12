@@ -1,0 +1,11 @@
+Django==1.10.1
+fake-factory==0.3.1
+Faker==0.7.3
+httplib2==0.9.2
+ipaddress==1.0.17
+python-dateutil==2.5.3
+requests==2.11.1
+six==1.10.0
+urllib3==1.18
+vboxapi==1.0
+virtualenv==15.0.3

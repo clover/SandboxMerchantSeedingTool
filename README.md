@@ -8,6 +8,7 @@ This script is intended to be used by developers to seed a Clover Sandbox accoun
 - Ensure that your merchant has at least 1 inventory item.
 - To ensure payments are made in full, turn off all default taxes.  
 `Clover Dashboard -> Setup > Taxes > Tax rates`
+- Download the virtualenv packages with `pip install -r requirements.txt`
 - Execute the script by running `python orders_seeder.py`
 
 ### Additional Information
