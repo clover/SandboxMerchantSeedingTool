@@ -7,7 +7,7 @@ the pre-existing inventory of a merchant. Items are selected randomly
 and each order consists of just one item.
 
 To ensure payments are made in full, turn off all default taxes.
-    -> Setup > Taxes > Tax rates and toggle accordingly
+    -> Setup > Taxes > Tax rates
 """
 
 #######################################
@@ -17,7 +17,7 @@ To ensure payments are made in full, turn off all default taxes.
 MID = ""
 API_TOKEN = ""
 NUM_ORDERS = 50
-ENVIRONMENT = "https://sandbox.dev.clover.com/"
+ENVIRONMENT = "https://sandbox.dev.clover.com/" # or https://api.clover.com/ or https://eu.clover.com/
 
 #######################################
 ########## END SCRIPT CONFIG ##########
