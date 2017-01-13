@@ -2,6 +2,8 @@
 
 This script is intended to be used by developers to seed a Clover Sandbox account, assisting with your third party application development and testing. It creates orders and makes in-full, credit card payments for those orders using the Clover REST APIs. These orders are based on the pre-existing inventory of the merchant. Items are selected randomly, and each order consists of one item.
 
+The credit card information in lines 17-20 is a test Visa provided by First Data. It will properly process fake payments in the Clover Sandbox environment, but is invalid for real transactions.
+
 ### General Usage
 
 - Open the file in a text editor and configure the script on lines 5-9.
@@ -12,6 +14,8 @@ This script is intended to be used by developers to seed a Clover Sandbox accoun
 - Execute the script by running `python orders_seeder.py`
 
 ### Additional Information
+
+The script `sleep`s in order to respect Clover's API rate limit. For more information, please reference our [Developer Guidelines](https://docs.clover.com/build/developer-guidelines/#rate-limiting).
 
 The script consumes the following Clover API endpoints:  
 - GET `v3/merchants/{MID}/items` to fetch a merchant's inventory
