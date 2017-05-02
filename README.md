@@ -25,4 +25,4 @@ The script consumes the following Clover API endpoints:
     - GET `v2/merchant/{MID}/pay/key` to fetch a merchant's developer pay secrets
     - POST `v2/merchant/{MID}/pay` to process the payment
 
-For development and testing questions, please reference [our docs](https://docs.clover.com/), our [public developer form](https://devask.clover.com/), or email us privately at [dev@clover.com](dev@clover.com).
+For development and testing questions, please reference [our docs](https://docs.clover.com/), our [public developer form](https://devask.clover.com/).
