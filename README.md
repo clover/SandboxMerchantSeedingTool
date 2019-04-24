@@ -4,6 +4,12 @@ This script is intended to be used by developers to seed a Clover Sandbox accoun
 
 The credit card information in lines 17-20 is a test Visa provided by First Data. It will properly process fake payments in the Clover Sandbox environment, but is invalid for real transactions.
 
+### Requirements
+
+- Python 3.7.3 (backwards compatible with 2.7)
+- pip
+- [Clover Sandbox developer account](https://sandbox.dev.clover.com/developers)
+
 ### General Usage
 
 - Open the file in a text editor and configure the script on lines 5-9.
