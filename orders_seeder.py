@@ -14,7 +14,7 @@ ENVIRONMENT = "https://sandbox.dev.clover.com/" # or https://api.clover.com/ or 
 ######################################
 ########## OTHER CONSTANTS ###########
 ######################################
-cardNumber = "4761739001010010"
+cardNumber = "6011361000006668"
 expMonth = 12
 expYear = 2020
 CVV = None
